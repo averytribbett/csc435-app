@@ -15,8 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Avery Tribbett, CSC435, Assignment 1, 01/12/2024
+          Reactjs.org
         </a>
+        <p>Avery Tribbett</p>
+        <p>CSC435 - Adv Web App Dev</p>
+        <p>Assignment 1</p>
+        <p>01/13/2024</p>
       </header>
     </div>
   );
