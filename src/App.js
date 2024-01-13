@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Avery Tribbett, CSC435, Assignment 1, 01/12/2024
         </a>
       </header>
     </div>
