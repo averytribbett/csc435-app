@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Login } from './pages/Login';
+import { Home } from './pages/Home';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Login />}/>
+          <Route path="/home" element={<Home/>}/>
         </Routes>
       </Router>
     </div>
@@ -15,12 +17,3 @@ function App() {
 }
 
 export default App;
-
-/*
-<header className="App-header">
-        <p>Avery Tribbett</p>
-        <p>CSC435 - Adv Web App Dev</p>
-        <p>Assignment 1</p>
-        <p>01/13/2024</p>
-      </header>
-*/

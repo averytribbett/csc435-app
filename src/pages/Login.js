@@ -16,8 +16,9 @@ export const Login = () => {
           <UserProfileForm/>
         }
         <input class="input-box" type="password" placeholder="Password" required/>
-        <input class="submit-btn" type="submit" value={loginState ? "Log In" : "Create Account"}/>
-        <input class="toggle-state-btn" type="button" value={loginState ? "Or Create Account" : "Or Log In"} onClick={() => setLoginState(!loginState)}/>
+        {/*Temporarily links to home page will enventually be submit button for the form*/}
+        <Link class="submit-btn form-btn" to="/home">{loginState ? "Log In" : "Create Account"}</Link>
+        <input class="toggle-state-btn form-btn" type="button" value={loginState ? "Or Create Account" : "Or Log In"} onClick={() => setLoginState(!loginState)}/>
       </form>
     </div>
   )
