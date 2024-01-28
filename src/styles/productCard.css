@@ -4,6 +4,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-self: center;
+  width: 90%;
 }
 
 /* Main card div styling */
@@ -12,7 +14,7 @@
   padding: 30px 15px;
   margin: 10px;
   width: 280px;
-  height: 400px;
+  height: 450px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -21,9 +23,13 @@
   justify-content: space-between;
 }
 
+.product-heading {
+  height: 130px;
+}
+
 /* Hard set height to prevent img distortion */
 .product-img {
-  height: 150px;
+  height: 130px;
 }
 
 /* Begin btn styling */
@@ -31,7 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 80px;
+  height: 90px;
 }
 
 .btn-add-to-cart {

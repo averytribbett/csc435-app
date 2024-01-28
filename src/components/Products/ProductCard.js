@@ -8,11 +8,11 @@ export const ProductCard = ({ id, name, image, price, quantity }) => {
         <h3>{name}</h3>
         <h5>${price}</h5>
       </div>
-      <div class="product-body"> 
-        <img className="product-img" src={image} alt={`Image of ${name}`}/>
+      <div className="product-body"> 
+        <img className="product-img" src={image} alt={`${name}`}/>
         <p className="product-quantity">Quantity - {quantity}</p>
       </div>
-      <div class="product-btns">
+      <div className="product-btns">
         <input className="btn-more-details" type="button" value="More Details"/>
         <input className="btn-add-to-cart" type="button" value="Add to Cart"/>
       </div>
