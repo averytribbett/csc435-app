@@ -5,9 +5,9 @@ import "./../styles/login.css";
 export const UserProfileForm = () => {
   return (
     <>
-      <input class="input-box" type="text" placeholder="Username" required/>
-      <input class="input-box" type="text" placeholder="First Name" required/>
-      <input class="input-box" type="text" placeholder="Last Name" required/>
+      <input className="input-box" type="text" placeholder="Username" required/>
+      <input className="input-box" type="text" placeholder="First Name" required/>
+      <input className="input-box" type="text" placeholder="Last Name" required/>
     </>
   )
 }

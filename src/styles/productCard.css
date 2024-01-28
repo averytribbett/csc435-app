@@ -1,0 +1,63 @@
+/* Styling for ProductContainer (did not make sense to have seperate file) */
+.product-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Main card div styling */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 30px 15px;
+  margin: 10px;
+  width: 280px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hard set height to prevent img distortion */
+.product-img {
+  height: 150px;
+}
+
+/* Begin btn styling */
+.product-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.btn-add-to-cart {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #003055;
+  color: #fff;
+}
+
+.btn-more-details {
+  padding: 8px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #e6b220;
+  color: #fff;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #0d558d;
+  font-weight: 700;
+}
+
+.btn-more-details:hover {
+  background-color: #ffd04e;
+  font-weight: 700;
+}
