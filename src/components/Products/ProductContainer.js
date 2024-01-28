@@ -3,20 +3,20 @@ import jsonData from "../../data/exampleProducts.json";
 import { ProductCard } from "./ProductCard";
 import "../../styles/productCard.css";
 
-export const ProductContainer = () => {
+export const ProductContainer = ({ search }) => {
   const [loading, setLoading] = useState(true);
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     setTimeout(() => {
-      // @TODO once database is set up convert to fetch
+      // @TODO once database is set up convert to fetch with search prop as url param
       setProducts(jsonData);
       setLoading(false);
     }, 1000); // Set small delay to give loading effect.
-  }, []); // Call each time page renders
+  }, [search]); // Call each time page renders
 
   return (
-    <div class="product-container">
+    <div className="product-container">
       {loading ? (
         <p>Loading...</p>
       ) : (
