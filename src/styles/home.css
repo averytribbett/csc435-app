@@ -8,6 +8,15 @@
 }
 
 .home-div {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info-div {
   width: 400px;
   margin: auto;
   margin-top: 25px;
