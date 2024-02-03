@@ -17,6 +17,7 @@ export const Home = () => {
         <p>CSC435 - Adv Web App Dev</p>
         <p>Assignment 3</p>
         <p>01/28/2024</p>
+        <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
       </div>
       
       <ProductContainer
