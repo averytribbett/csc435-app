@@ -13,7 +13,7 @@ export const NavBar = ({ onSearch }) => {
   
   return (
     <Navbar className="bg-body-tertiary justify-content-between px-4">
-      <Link to="/home">
+      <Link to="/home" style={{ textDecoration: 'none', color: 'inherit' }}>
         <Navbar.Brand>CSP Store</Navbar.Brand>
       </Link>
       <Container className="justify-content-end px-0">

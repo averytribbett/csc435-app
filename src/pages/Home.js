@@ -12,14 +12,13 @@ export const Home = () => {
         onSearch={setSearch} // Extract search from Nav
       />
       <div className="info-div">
-        <h1>Coming Soon! CSP Store Example Products Below</h1>
+        <h1>Coming Soon! CSP Store Example Products Below Click Add To Cart!</h1>
         <p>Avery Tribbett</p>
         <p>CSC435 - Adv Web App Dev</p>
-        <p>Assignment 3</p>
-        <p>01/28/2024</p>
+        <p>Assignment 4</p>
+        <p>02/04/2024</p>
         <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
       </div>
-      
       <ProductContainer
         search={search} // Pass current search state to Container
       />
