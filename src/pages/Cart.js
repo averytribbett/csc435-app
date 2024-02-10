@@ -3,6 +3,7 @@ import { NavBar } from "../components/Nav/NavBar";
 import { CartProduct } from "../components/Products/CartProduct";
 
 export class Cart extends Component {
+  // @TODO prevent non logged in user from viewing this page
   constructor(props) {
     super(props)
     this.state = {
@@ -23,7 +24,6 @@ export class Cart extends Component {
         "price": params.get("price"),
         "image": params.get("image"),
         "quantity": Number(params.get("quantity")),
-  
       })
     }
 

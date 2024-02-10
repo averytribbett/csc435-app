@@ -9,7 +9,6 @@ export const ProductCard = ({ id, name, image, price, quantity }) => {
     navigate(`/cart?id=${id}&name=${name}&image=${image}&price=${price}&quantity=1`);
   }
 
-
   return (
     <div className="product-card" id={`product-card-${id}`}>
       <div className="product-heading">
